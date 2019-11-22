@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="test">
+        <item>南尘</item>
+        <item>鸿洋</item>
+    </string-array>
+
+
+    <string-array name="test1">
+        <item>Android</item>
+        <item>iOS</item>
+        <item>Flutter</item>
+        <item>Kotlin</item>
+    </string-array>
+</resources>

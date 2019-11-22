@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <com.nanchen.ncswitchmultibutton.NCSwitchMultiButton
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:smb_radius="10dp"
+        app:smb_select_pos="1" />
+
+    <com.nanchen.ncswitchmultibutton.NCSwitchMultiButton
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn1"
+        app:smb_style="all_circle"
+        app:smb_tabs="@array/test" />
+
+    <com.nanchen.ncswitchmultibutton.NCSwitchMultiButton
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn2"
+        app:smb_radius="3dp"
+        app:smb_tabs="@array/test1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

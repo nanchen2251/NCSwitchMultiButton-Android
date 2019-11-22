@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NCSwitchMultiButton">
+        <attr name="smb_style" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="all_circle" value="1" />
+        </attr>
+        <attr name="smb_tv_size" format="dimension" />
+        <attr name="smb_tabs" format="reference" />
+        <attr name="smb_selected_color" format="color|reference" />
+        <attr name="smb_unselected_color" format="color|reference" />
+        <attr name="smb_selected_tv_color" format="color|reference" />
+        <attr name="smb_unselected_tv_color" format="color|reference" />
+        <attr name="smb_select_pos" format="integer" />
+        <attr name="smb_stroke_width" format="dimension" />
+        <attr name="smb_radius" format="dimension" />
+    </declare-styleable>
+</resources>
