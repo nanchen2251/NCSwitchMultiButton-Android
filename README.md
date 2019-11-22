@@ -5,7 +5,7 @@
 2. multitype
 
 ## Screenshots
-<div align=center><img width="270" height="585" src="https://github.com/nanchen2251/NCSwitchMultiButton-Android/blob/master/screenshot/screenshot.png"/></div>
+<img width="270" height="585" src="https://github.com/nanchen2251/NCSwitchMultiButton-Android/blob/master/screenshot/screenshot.png"/>
 
 
 ## How to use it
