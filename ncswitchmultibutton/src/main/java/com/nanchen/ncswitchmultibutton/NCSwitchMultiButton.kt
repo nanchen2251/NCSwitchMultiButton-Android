@@ -43,7 +43,7 @@ class NCSwitchMultiButton @JvmOverloads constructor(
     private var strokeRadius = -1f
     private var strokeWidth = 0f
     private var selectTab = 0
-    private var onSwitchListener: OnSwitchListener? = null
+    var onSwitchListener: OnSwitchListener? = null
     private var tabTexts = arrayOf("L", "M", "R")
     private val tvHeightOffset: Float
     private val defaultWidth: Int
