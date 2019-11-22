@@ -5,7 +5,9 @@
 2. multitype
 
 ## Screenshots
-<div align=center><img width="540" height="1170" src="https://github.com/nanchen2251/NCSwitchMultiButton-Android/blob/master/screenshot/screenshot.png"/></div>
+<div align=center><img width="270" height="585" src="https://github.com/nanchen2251/NCSwitchMultiButton-Android/blob/master/screenshot/screenshot.png"/></div>
+
+
 ## How to use it
 #### Step 1. Add it in your root build.gradle at the end of repositories:
 ```groovy
