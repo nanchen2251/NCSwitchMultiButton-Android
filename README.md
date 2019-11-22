@@ -21,7 +21,7 @@ allprojects {
 #### Step 2. Add the dependency
 ```groovy
 dependencies {
-    implementation 'com.github.nanchen2251:NCSwitchMultiButton-Android:Tag:1.0.1'
+    implementation 'com.github.nanchen2251:NCSwitchMultiButton-Android:1.0.1'
 }
 ```
 
