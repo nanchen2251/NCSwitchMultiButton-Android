@@ -59,6 +59,9 @@ dependencies {
 
 #### Step 5. If you still don't understand, please refer to the demo
 
+
+Thasks for:https://github.com/KingJA/SwitchButton
+
 ### About the author
     nanchen<br>
     Chengdu,China<br>
